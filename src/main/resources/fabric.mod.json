@@ -1,0 +1,28 @@
+{
+  "schemaVersion": 1,
+  "id": "additionalhexxythings",
+  "version": "${version}",
+  "name": "Additional Hexxy Things",
+  "description": "",
+  "authors": [],
+  "contact": {},
+  "license": "MIT",
+  "icon": "assets/additionalhexxythings/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "client": [
+      "me.gitcat3.additionalhexxythings.client.AdditionalhexxythingsClient"
+    ],
+    "main": [
+      "me.gitcat3.additionalhexxythings.Additionalhexxythings"
+    ]
+  },
+  "mixins": [
+    "additionalhexxythings.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=${loader_version}",
+    "fabric": "*",
+    "minecraft": "${minecraft_version}"
+  }
+}
