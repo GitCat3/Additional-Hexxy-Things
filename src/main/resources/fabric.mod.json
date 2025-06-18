@@ -26,5 +26,6 @@
     "minecraft": "${minecraft_version}",
     "hexcasting": ">=0.11.2-pre-702",
     "trinkets": ">=3.7.2"
-  }
+  },
+  "accessWidener": "additionalhexxythings.accesswidener"
 }
