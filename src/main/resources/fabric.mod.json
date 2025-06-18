@@ -24,6 +24,7 @@
     "fabricloader": ">=${loader_version}",
     "fabric": "*",
     "minecraft": "${minecraft_version}",
-    "hexcasting": ">=0.11.2-pre-702"
+    "hexcasting": ">=0.11.2-pre-702",
+    "trinkets": ">=3.7.2"
   }
 }

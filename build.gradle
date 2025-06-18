@@ -29,9 +29,7 @@ repositories {
         name = 'Ladysnake'
         url = 'https://maven.ladysnake.org/releases'
     }
-    flatDir {
-        dir 'libs'
-    }
+    maven {url "https://maven-pool-net-eu-org.ipns.dweb.link/"}
 }
 
 dependencies {
@@ -55,7 +53,8 @@ dependencies {
     }
     modImplementation "vazkii.patchouli:Patchouli:$minecraft_version-$patchouli"
     modApi "com.samsthenerd.inline:inline-fabric:$minecraft_version-$inline"
-    modImplementation "additionalhexxythings:serialization-hooks:0.4.99999"
+    modImplementation "io.github.tropheusj:serialization-hooks:0.4.99999"
+    modImplementation "dev.emi:trinkets:${trinkets}"
 }
 
 processResources {
