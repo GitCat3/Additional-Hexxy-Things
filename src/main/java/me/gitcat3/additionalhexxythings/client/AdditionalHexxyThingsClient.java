@@ -20,7 +20,6 @@ public class AdditionalHexxyThingsClient implements ClientModInitializer {
             MatrixStack matrices = context.matrixStack();
             Vec3d camPos = context.camera().getPos();
 
-            // Call the new ShieldRenderer class with desired position and radius
             ShieldRenderer.drawShield(matrices,
                     (float)(100 - camPos.x),
                     (float)(64 - camPos.y),
